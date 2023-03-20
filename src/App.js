@@ -1,11 +1,17 @@
-// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import { Home } from './routes/Home';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hellow World</h1>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
   );
 }
+
 export default App;
