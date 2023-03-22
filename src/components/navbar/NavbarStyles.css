@@ -6,7 +6,11 @@
     /* box-shadow: 10px 10px 8px #888888; */
     box-shadow: 1px 3px 8px #888884;
     /* background: white; */
-    background-color: #FFD5FF;
+    /* background-color: #FFD5FF; */
+    /* background-color: #c6c2c2; */
+    /* background-color: #dfdfdf; */
+    background-color: #e6e6e6;
+    /* background-color: black; */
 }
 .header {
     display: flex;
@@ -42,6 +46,7 @@ ul {
 ul li {
     display: inline-block;
     color: #1E00FF;
+    /* color: white; */
 }
 
 span {
@@ -78,6 +83,8 @@ transition: 0.5s;
 
 .login-btn-nav {
     background-color: white;
+    /* color: #1E00FF; */
+    /* color: #e6e6e6; */
     color: #1E00FF;
     font-size: 1.5rem;
     padding: 8px;
