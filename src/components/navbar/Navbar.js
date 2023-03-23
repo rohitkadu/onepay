@@ -3,6 +3,7 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo-onepay.png"
 import loginicon from "../../assets/log-in-icon.png"
+// import whitelogo from "../../assets/logo-onepay-whiteblack.jpeg"
 // import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Navbar = () => {
