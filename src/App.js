@@ -7,6 +7,8 @@ import  SignupPage  from './routes/SignupPage';
 import LoginPage from './routes/LoginPage';
 import { Route, Routes } from "react-router-dom";
 import { ServicesPage } from './routes/ServicesPage';
+import { BillsPage } from './routes/BillsPage';
+import { SuccessPage } from './routes/SucessPage';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Route path="/Login" element={<LoginPage />} />
         <Route path="/Home" element={<HomePage />} />
         <Route path="/Services" element={<ServicesPage />} />
-
+        <Route path="/BillsPage" element={<BillsPage />} />
+        <Route path="/Success" element={<SuccessPage />} />
+      
       </Routes>
     </>
   );

@@ -1,0 +1,17 @@
+.success-box {
+    width: 100%;
+    /* border: 10px solid red; */
+    text-align: center;
+}
+
+.success-box h1 {
+    color: green;
+    margin: 20px 0;
+}
+
+.success-box button {
+    width: 40%;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 20px;
+}

@@ -19,7 +19,7 @@ export const SignupPage = () => {
             // Signed in
             const user = userCredential.user;
             console.log(user);
-            navigate("/login")
+            navigate("/Home")
             // ...
         })
         .catch((error) => {
