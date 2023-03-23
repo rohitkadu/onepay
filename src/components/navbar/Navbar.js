@@ -59,7 +59,7 @@ export const Navbar = () => {
 
         <Link to="/">
           <button className="login-btn-nav">
-            Sign Up <img src={loginicon} alt="" />
+            Sign In <img src={loginicon} alt="" />
           </button>
         </Link>
 

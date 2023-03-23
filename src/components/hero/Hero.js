@@ -25,7 +25,7 @@ export const Hero = () => {
                 
                 <Link to="/">
                     <button className="login-btn">
-                        Sign In Now <img width="40px" src={signupicon} alt="" />
+                        Sign Up Now <img width="40px" src={signupicon} alt="" />
                     </button>
                 </Link>
 
