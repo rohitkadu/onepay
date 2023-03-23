@@ -23,7 +23,7 @@ export const Hero = () => {
                 <h2>  A Smart <img width="60px" src={brain} alt="" /> 
                 {'\u00A0'} Way to Pay <img width="40px" src={handpay} alt="" /> </h2>
                 
-                <Link to="/">
+                <Link to="/Signup">
                     <button className="login-btn">
                         Sign Up Now <img width="40px" src={signupicon} alt="" />
                     </button>

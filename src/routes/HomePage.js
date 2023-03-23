@@ -4,6 +4,7 @@ import { auth } from '../firebase';
 // import { Navbar } from "../components/navbar/Navbar";
 import {HomeNavbar} from "../components/navbar-home/HomeNavbar";
 // import { Hero } from "../components/hero/Hero";
+import { Services } from "../components/services/Services";
 
 
 export const HomePage = () => {
@@ -28,6 +29,7 @@ export const HomePage = () => {
   return (
     <div>
       <HomeNavbar />
+      <Services />
     </div>
   );
 };

@@ -34,25 +34,25 @@ export const HomeNavbar = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link className="text-link" to="/">
+            <Link className="text-link" to="/Home">
               <span>Home</span>
             </Link>
           </li>
 
           <li>
-            <Link className="text-link" to="/project">
+            <Link className="text-link" to="/Services">
               <span>Services</span>
             </Link>
           </li>
 
           <li>
-            <Link className="text-link" to="/about">
+            <Link className="text-link" to="/Home">
               <span>About</span>
             </Link>
           </li>
 
           <li>
-            <Link className="text-link" to="/contact">
+            <Link className="text-link" to="/Home">
               <span>Contact</span>
             </Link>
           </li>

@@ -1,0 +1,66 @@
+.bill-container {
+    width: 80%;
+    height: 80vh;
+    /* border: 2px solid red ; */
+    margin: 0 auto
+}
+
+.bill-container h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bill-card {
+    width: 20%;
+    border: 2px dashed black;
+    padding: 20px;
+    border-radius: 20px;
+    /* height: 40vh; */
+    /* border: 2px solid pink; */
+}
+
+.recharge img {
+    width: 100%;
+}
+
+.recharge {
+    text-align: center;
+}
+
+.bills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#elec {
+    bottom: 0;
+    margin-top: 60px;
+}
+
+.gateway {
+    width: 40%;
+    height: 70vh;
+    border: 4px solid brown;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: black;
+}
+
+.gateway-container {
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.gateway-container img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.gateway-container button {
+    margin-top: 30px;
+}

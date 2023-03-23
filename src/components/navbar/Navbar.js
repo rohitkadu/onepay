@@ -33,31 +33,31 @@ export const Navbar = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link className="text-link" to="/">
+            <Link className="text-link" to="/Home">
               <span>Home</span>
             </Link>
           </li>
 
           <li>
-            <Link className="text-link" to="/project">
+            <Link className="text-link" to="/Login">
               <span>Services</span>
             </Link>
           </li>
 
           <li>
-            <Link className="text-link" to="/about">
+            <Link className="text-link" to="/">
               <span>About</span>
             </Link>
           </li>
 
           <li>
-            <Link className="text-link" to="/contact">
+            <Link className="text-link" to="/">
               <span>Contact</span>
             </Link>
           </li>
         </ul>
 
-        <Link to="/">
+        <Link to="/Login">
           <button className="login-btn-nav">
             Sign In <img src={loginicon} alt="" />
           </button>
